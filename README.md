@@ -46,18 +46,17 @@ Shield AdBlocker is a Chrome extension designed to block unwanted ads and tracke
 
 - First Read this [License](https://github.com/UjjwalSaini07/Shield-AdBlocker/blob/main/LICENSE) & their terms then proceed.
 - Star ⭐ the [Repository](https://github.com/UjjwalSaini07/Shield-AdBlocker)
-
-1. 🧑‍💻 Clone or download this repository to your local machine.
+- 🧑‍💻 Clone or download this repository to your local machine.
 ```bash
     git clone https://github.com/UjjwalSaini07/Shield-AdBlocker.git
 ```
-2. 🌐 Open Chrome and go to chrome://extensions/ in the address bar.
-3. Enable **"Developer mode"** by toggling the switch in the top-right corner of the Extensions page.
-4. Click on **"Load unpacked"** and select the project folder where the extension files are stored.
-5. 🚀 The extension will now be loaded into Chrome, and ads matching the rules in `rules.json` will be automatically blocked.
-6. 🔄 Test the extension by visiting websites with known ads or trackers to see it in action.
-7. ⚙️ Configure the extension by modifying the `rules.jso`n file for custom ad-blocking preferences.
-8. 🛠️ Update and maintain the extension by loading new versions with any changes you make to the project folder.
+-🌐 Open Chrome and go to chrome://extensions/ in the address bar.
+- Enable **"Developer mode"** by toggling the switch in the top-right corner of the Extensions page.
+- Click on **"Load unpacked"** and select the project folder where the extension files are stored.
+- 🚀 The extension will now be loaded into Chrome, and ads matching the rules in `rules.json` will be automatically blocked.
+- Test the extension by visiting websites with known ads or trackers to see it in action.
+- Configure the extension by modifying the `rules.jso`n file for custom ad-blocking preferences.
+- Update and maintain the extension by loading new versions with any changes you make to the project folder.
 
 ## Customization
 
@@ -78,7 +77,7 @@ To add or modify blocking rules:
 
 ```json
 {
-    "id": 8,
+    "id": 1,
     "priority": 1,
     "action": { "type": "block" },
     "condition": { "urlFilter": "*://*example-ad-domain.com/*" }
