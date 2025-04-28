@@ -51,12 +51,13 @@ Shield AdBlocker is a Chrome extension designed to block unwanted ads and tracke
     git clone https://github.com/UjjwalSaini07/Shield-AdBlocker.git
 ```
 
+- Just Download from Here Source Asset Files- [Link](https://github.com/UjjwalSaini07/Shield-AdBlocker/releases/tag/v1.0)
 - 🌐 Open Chrome and go to chrome://extensions/ in the address bar.
 - Enable **"Developer mode"** by toggling the switch in the top-right corner of the Extensions page.
 - Click on **"Load unpacked"** and select the project folder where the extension files are stored.
 - 🚀 The extension will now be loaded into Chrome, and ads matching the rules in `rules.json` will be automatically blocked.
 - Test the extension by visiting websites with known ads or trackers to see it in action.
-- Configure the extension by modifying the `rules.jso`n file for custom ad-blocking preferences.
+- Configure the extension by modifying the `rules.json` file for custom ad-blocking preferences.
 - Update and maintain the extension by loading new versions with any changes you make to the project folder.
 
 ## Customization
