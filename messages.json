@@ -1,0 +1,22 @@
+{
+  "extName": {
+    "message": "Shield AdBlocker",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "A powerful and lightweight ad blocker for a seamless browsing experience.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Shield AdBlocker",
+    "description": "The title for the browser action."
+  },
+  "blockSuccess": {
+    "message": "Blocked a request to an ad or tracker.",
+    "description": "Message displayed when a request is successfully blocked."
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Label for the settings page or button."
+  }
+}
