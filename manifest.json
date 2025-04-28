@@ -1,0 +1,30 @@
+{
+  "name": "Shield AdBlocker",
+  "description": "A lightweight and efficient ad blocker using Chrome's Declarative Net Request API.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "main_ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "24": "icons/icon24.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "24": "icons/icon24.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Shield AdBlocker"
+  }
+}
